@@ -11291,4 +11291,70 @@ footer .bottom-footer .icons i {
   box-sizing: border-box;
 }
 
+main {
+  background-color: whitesmoke;
+}
+main .container-fluid .container .text-red, main .container-sm .container .text-red, main .container-md .container .text-red, main .container-lg .container .text-red, main .container-xl .container .text-red, main .container-xxl .container .text-red {
+  padding: 20px;
+  background-color: rgba(214, 214, 214, 0.925);
+  display: flex;
+  align-items: center;
+}
+main .container-fluid .container .text-red p, main .container-sm .container .text-red p, main .container-md .container .text-red p, main .container-lg .container .text-red p, main .container-xl .container .text-red p, main .container-xxl .container .text-red p {
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px;
+}
+@media (max-width: 991.98px) {
+  main .container-fluid .container .text-red, main .container-sm .container .text-red, main .container-md .container .text-red, main .container-lg .container .text-red, main .container-xl .container .text-red, main .container-xxl .container .text-red {
+    display: flex;
+    justify-content: center;
+  }
+}
+main .container-fluid .container .row ul, main .container-sm .container .row ul, main .container-md .container .row ul, main .container-lg .container .row ul, main .container-xl .container .row ul, main .container-xxl .container .row ul {
+  margin: 100px 0;
+  padding-left: 0;
+}
+main .container-fluid .container .row ul .red-bg, main .container-sm .container .row ul .red-bg, main .container-md .container .row ul .red-bg, main .container-lg .container .row ul .red-bg, main .container-xl .container .row ul .red-bg, main .container-xxl .container .row ul .red-bg {
+  color: white;
+  background-color: red;
+}
+main .container-fluid .container .row ul .black-bg, main .container-sm .container .row ul .black-bg, main .container-md .container .row ul .black-bg, main .container-lg .container .row ul .black-bg, main .container-xl .container .row ul .black-bg, main .container-xxl .container .row ul .black-bg {
+  background-color: black;
+  padding: 30px;
+}
+main .container-fluid .container .row ul .black-bg p, main .container-sm .container .row ul .black-bg p, main .container-md .container .row ul .black-bg p, main .container-lg .container .row ul .black-bg p, main .container-xl .container .row ul .black-bg p, main .container-xxl .container .row ul .black-bg p {
+  color: white;
+}
+main .container-fluid .container .row ul li, main .container-sm .container .row ul li, main .container-md .container .row ul li, main .container-lg .container .row ul li, main .container-xl .container .row ul li, main .container-xxl .container .row ul li {
+  padding: 10px;
+  background-color: rgba(235, 235, 235, 0.925);
+  border: 0.1px solid rgba(128, 128, 128, 0.205);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+main .container-fluid .container .row ul li h2, main .container-sm .container .row ul li h2, main .container-md .container .row ul li h2, main .container-lg .container .row ul li h2, main .container-xl .container .row ul li h2, main .container-xxl .container .row ul li h2, main .container-fluid .container .row ul li .h2, main .container-sm .container .row ul li .h2, main .container-md .container .row ul li .h2, main .container-lg .container .row ul li .h2, main .container-xl .container .row ul li .h2, main .container-xxl .container .row ul li .h2 {
+  margin-top: 40px;
+  margin-bottom: 0px;
+}
+main .container-fluid .container .row ul li h2 .no-bold, main .container-sm .container .row ul li h2 .no-bold, main .container-md .container .row ul li h2 .no-bold, main .container-lg .container .row ul li h2 .no-bold, main .container-xl .container .row ul li h2 .no-bold, main .container-xxl .container .row ul li h2 .no-bold, main .container-fluid .container .row ul li .h2 .no-bold, main .container-sm .container .row ul li .h2 .no-bold, main .container-md .container .row ul li .h2 .no-bold, main .container-lg .container .row ul li .h2 .no-bold, main .container-xl .container .row ul li .h2 .no-bold, main .container-xxl .container .row ul li .h2 .no-bold {
+  font-weight: lighter;
+}
+main .container-fluid .container .row ul li p, main .container-sm .container .row ul li p, main .container-md .container .row ul li p, main .container-lg .container .row ul li p, main .container-xl .container .row ul li p, main .container-xxl .container .row ul li p {
+  margin-bottom: 0;
+  color: gray;
+}
+main .container-fluid .container .row ul li button, main .container-sm .container .row ul li button, main .container-md .container .row ul li button, main .container-lg .container .row ul li button, main .container-xl .container .row ul li button, main .container-xxl .container .row ul li button {
+  background-color: red;
+  border: 0;
+  padding: 8px;
+  border-radius: 3px;
+  color: white;
+}
+
 /*# sourceMappingURL=pricing-box.css.map */

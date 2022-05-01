@@ -7,7 +7,78 @@
   margin: 0;
   box-sizing: border-box;
 }
+main {
+  background-color: whitesmoke;
+  .container-fluid {
+    .container {
+      .text-red {
+        padding: 20px;
+        background-color: rgba(214, 214, 214, 0.925);
+        display: flex;
+        align-items: center;
+        p {
+          margin-bottom: 0;
+          text-align: center;
+          color: white;
+          background-color: red;
+          border-radius: 5px;
+          padding: 8px;
+        }
+        @include media-breakpoint-down(lg) {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .row {
+        ul {
+          margin: 100px 0;
 
+          padding-left: 0;
+          .red-bg {
+            color: white;
+            background-color: red;
+          }
+          .black-bg {
+            background-color: black;
+            padding: 30px;
+            p {
+              color: white;
+            }
+          }
+          li {
+            padding: 10px;
+            background-color: rgba(235, 235, 235, 0.925);
+            border: 0.1px solid rgba(128, 128, 128, 0.205);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+
+            h2 {
+              margin-top: 40px;
+              margin-bottom: 0px;
+              .no-bold {
+                font-weight: lighter;
+              }
+            }
+
+            p {
+              margin-bottom: 0;
+              color: gray;
+            }
+            button {
+              background-color: red;
+              border: 0;
+              padding: 8px;
+              border-radius: 3px;
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
 header {
   @extend %header;
 }
