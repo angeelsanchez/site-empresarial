@@ -11291,4 +11291,68 @@ footer .bottom-footer .icons i {
   box-sizing: border-box;
 }
 
+main .red-route {
+  background-color: rgba(214, 214, 214, 0.925);
+}
+main .red-route .container .text-red {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+main .red-route .container .text-red p {
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px;
+}
+@media (max-width: 991.98px) {
+  main .red-route .container .text-red {
+    display: flex;
+    justify-content: center;
+  }
+}
+main .recent-works h4, main .recent-works .h4 {
+  margin: 50px 0;
+}
+main .recent-works .container .categories ul {
+  padding-left: 0;
+}
+main .recent-works .container .categories ul li {
+  list-style: none;
+  display: inline-flex;
+}
+main .recent-works .container .categories ul li .black-bg {
+  background-color: black;
+  padding: 8px 20px;
+  color: white;
+}
+main .recent-works .container .categories ul li button {
+  margin-right: 10px;
+  padding: 8px;
+  border-radius: 2px;
+  border: 0.1px solid rgba(128, 128, 128, 0.397);
+  background-color: white;
+  color: gray;
+}
+main .recent-works .row {
+  padding-bottom: 50px;
+}
+main .recent-works .row img {
+  margin-top: 20px;
+  display: flex;
+  overflow: hidden;
+  margin-right: 20px;
+  max-width: 100%;
+  max-height: 100%;
+}
+main .recent-works .row h5, main .recent-works .row .h5 {
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+main .recent-works .row p {
+  color: gray;
+}
+
 /*# sourceMappingURL=portfolio.css.map */
