@@ -1,3 +1,73 @@
 %footer {
-  background-color: blue;
+  .top-footer {
+    padding: 30px;
+    background-color: rgba(214, 214, 214, 0.822);
+    border-bottom: 1px solid gray;
+    .container {
+      p,
+      a {
+        color: rgb(95, 95, 95);
+        text-decoration: none;
+      }
+      .row {
+        .contact-us {
+          p {
+            margin: 0;
+          }
+        }
+        h3 {
+          margin-top: 30px;
+          font-size: 1.5em;
+        }
+
+        h4 {
+          font-size: 1em;
+        }
+        .links {
+          ul {
+            padding-left: 0;
+            li {
+              list-style: none;
+            }
+          }
+        }
+        .newsletter {
+          input {
+            width: 70%;
+            height: 15%;
+          }
+
+          button {
+            border: 0;
+            width: 30%;
+            height: 15%;
+            background-color: red;
+            border-radius: 5px;
+            color: white;
+          }
+        }
+        @include media-breakpoint-down(xl) {
+        }
+      }
+    }
+  }
+
+  .bottom-footer {
+    background-color: rgba(214, 214, 214, 0.822);
+    padding: 20px;
+    p {
+      margin-bottom: 0;
+    }
+
+    .icons {
+      display: flex;
+      align-items: center;
+      justify-content: end;
+
+      i {
+        padding: 5px;
+        color: black;
+      }
+    }
+  }
 }
