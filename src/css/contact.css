@@ -11291,4 +11291,99 @@ footer .bottom-footer .icons i {
   box-sizing: border-box;
 }
 
+main {
+  margin-bottom: 50px;
+}
+main .red-route {
+  margin-bottom: 10px;
+  background-color: rgba(214, 214, 214, 0.925);
+}
+main .red-route .container .text-red {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+}
+main .red-route .container .text-red p {
+  margin-bottom: 0;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 8px;
+}
+@media (max-width: 991.98px) {
+  main .red-route .container .text-red {
+    display: flex;
+    justify-content: center;
+  }
+}
+main .form .container .h2-center {
+  margin-top: 50px;
+  text-align: center;
+}
+main .form .container .contact-span {
+  font-weight: lighter;
+  font-size: 20px;
+}
+main .form .container .colored-lane {
+  width: 70%;
+  margin: 20px auto 0 auto;
+}
+main .form .container .colored-lane ul {
+  padding-left: 0;
+  list-style: none;
+  width: 100%;
+  font-size: 0;
+}
+main .form .container .colored-lane ul li {
+  display: inline-block;
+  width: 14.28%;
+  height: 7px;
+}
+main .form .container .colored-lane ul li:nth-child(1) {
+  background: #65ffa5;
+}
+main .form .container .colored-lane ul li:nth-child(2) {
+  background: #edff50;
+}
+main .form .container .colored-lane ul li:nth-child(3) {
+  background: #f1c40f;
+}
+main .form .container .colored-lane ul li:nth-child(4) {
+  background: #e74c3c;
+}
+main .form .container .colored-lane ul li:nth-child(5) {
+  background: #9b59b6;
+}
+main .form .container .colored-lane ul li:nth-child(6) {
+  background: #4200f7;
+}
+main .form .container .colored-lane ul li:nth-child(7) {
+  background: #009cf7;
+}
+main .form .container .forms-father {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  cursor: auto;
+}
+main .form .container .forms-father .forms {
+  width: 70%;
+  border: 0.1px solid rgba(128, 128, 128, 0.466);
+  border-radius: 3px;
+  padding: 5px;
+  margin: 5px;
+}
+main .form .container .forms-father .textarea-padding {
+  padding-bottom: 80px;
+}
+main .form .container .forms-father button {
+  width: 70%;
+  background-color: red;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  padding: 5px;
+}
+
 /*# sourceMappingURL=contact.css.map */

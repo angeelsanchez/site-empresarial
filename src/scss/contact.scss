@@ -7,6 +7,104 @@
   margin: 0;
   box-sizing: border-box;
 }
+main {
+  margin-bottom: 50px;
+  .red-route {
+    margin-bottom: 10px;
+    background-color: rgba(214, 214, 214, 0.925);
+    .container {
+      .text-red {
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        p {
+          margin-bottom: 0;
+          text-align: center;
+          color: white;
+          background-color: red;
+          border-radius: 5px;
+          padding: 8px;
+        }
+        @include media-breakpoint-down(lg) {
+          display: flex;
+          justify-content: center;
+        }
+      }
+    }
+  }
+  .form {
+    .container {
+      .h2-center {
+        margin-top: 50px;
+        text-align: center;
+      }
+      .contact-span {
+        font-weight: lighter;
+        font-size: 20px;
+      }
+      .colored-lane {
+        width: 70%;
+        margin: 20px auto 0 auto;
+        ul {
+          padding-left: 0;
+          list-style: none;
+          width: 100%;
+          font-size: 0;
+          li {
+            display: inline-block;
+            width: 14.28%;
+            height: 7px;
+            &:nth-child(1) {
+              background: #65ffa5;
+            }
+            &:nth-child(2) {
+              background: #edff50;
+            }
+            &:nth-child(3) {
+              background: #f1c40f;
+            }
+            &:nth-child(4) {
+              background: #e74c3c;
+            }
+            &:nth-child(5) {
+              background: #9b59b6;
+            }
+            &:nth-child(6) {
+              background: #4200f7;
+            }
+            &:nth-child(7) {
+              background: #009cf7;
+            }
+          }
+        }
+      }
+      .forms-father {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        cursor: auto;
+        .forms {
+          width: 70%;
+          border: 0.1px solid rgba(128, 128, 128, 0.466);
+          border-radius: 3px;
+          padding: 5px;
+          margin: 5px;
+        }
+        .textarea-padding {
+          padding-bottom: 80px;
+        }
+        button {
+          width: 70%;
+          background-color: red;
+          border: 0;
+          border-radius: 3px;
+          color: white;
+          padding: 5px;
+        }
+      }
+    }
+  }
+}
 
 header {
   @extend %header;
